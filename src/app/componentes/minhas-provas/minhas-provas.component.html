@@ -41,17 +41,17 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title"> Adicionar nova aula </h5>
+        <h5 class="modal-title"> Adicionar nova prova </h5>
       </div>
       <form [formGroup]="form" (ngSubmit)="salvarFormProva()">
         <div class="modal-body">
           <div class="form-row">
             <div class="mb-3 col-md-12">
-              <label class="form-label">Aula</label>
+              <label class="form-label">Disciplina</label>
               <input type="text" class="form-control" formControlName="nomeDisciplina">
             </div>
             <div class="mb-3 col-md-12">
-              <label class="form-label">Data da Aula</label>
+              <label class="form-label">Data da Prova</label>
               <input type="date" class="form-control" formControlName="dataAvaliacao">
             </div>
             <div class="md-3 col">
